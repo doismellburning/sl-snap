@@ -11,6 +11,12 @@ grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  sl-doismellburning:
+    plugin: make
+    source: https://github.com/mtoyoda/sl
+    source-type: git
+    artifacts:
+      - sl
+    build-packages:
+      - gcc
+      - libncurses-dev
