@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/snapcraft:stable # https://circleci.com/docs/2.0/build-publish-snap-packages/
+
+    steps:
+      - checkout
+
+      - run:
+          command: snapcraft
