@@ -1,6 +1,6 @@
 # sl-snap
 
-A [Snap](https://snapcraft.io/) of [`sl`](https://github.com/mtoyoda/sl).
+A [snap](https://snapcraft.io/) of [`sl`](https://github.com/mtoyoda/sl).
 
 https://snapcraft.io/sl-doismellburning
 
